@@ -1,0 +1,605 @@
+/* Estilização padrão */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* /padrão */
+
+/* Estilização de botão GERAL */
+
+.botão a{
+
+    font-weight: bold;
+}
+
+/* Estilizando o Header ou Cabeçalho */
+.cabeçalho{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+.logo img{
+
+    width: 8vw;
+}
+
+.logo{
+
+    margin-right: 20vw;
+    margin-left: 10%;
+}
+
+.menu02{
+
+    display: none;
+}
+
+.menu{
+
+    margin-right: 10%;
+}
+.menu li{
+
+    list-style-type: none;
+    margin-right: 6vw;
+    font-size: 1rem;
+    white-space: nowrap;
+    
+}
+
+.menu li:last-child{
+
+    margin-right: 0;
+}
+
+.menu ul{
+
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    
+}
+
+.menu a{
+
+    color: black;
+    text-decoration: none;
+}
+
+/* menu mobile */
+
+/* /menumobile */
+
+/* /header */
+
+/* Estilizando section (1) */
+
+.conteiner01{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.textolateral{
+
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.botão{
+
+    margin-top: 15%;
+}
+
+.textolateral a{
+
+    text-decoration: none;
+    color: white;
+    background-color: #DA5F17;
+    border-radius: 0.75rem;
+    padding: 10% 50%;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    
+}
+
+.img01 img{
+
+    width: 50vw;
+}
+
+.UM{
+
+    margin-bottom: 5%;
+}
+
+/* /section (1) */
+
+/* Estilizando section (2) */
+
+.conteiner02{
+
+    display: flex;
+    width: 100%;
+    
+}
+.img02 img{
+
+    width: 50vw;
+}
+
+.img02{
+
+    margin-right: 15%;
+}
+
+.textolateral02{
+
+    color: #DA5F17;
+    font-size: 2rem;
+    margin-top: 7%;
+    
+}
+
+.linha{
+
+    background-color: #DA5F17;
+    padding: 0.5%;
+    border: #DA5F17;
+    border-radius: 1rem;
+    width: 17%;
+    margin-bottom: 10%;
+}
+
+.textolateral02 p{
+
+    color: black;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    max-width: 78%;
+}
+
+.DOIS{
+
+    margin-bottom: 5%;
+}
+
+/* /section (2) */
+
+/* Estilizando section (3) */
+
+.conteiner03{
+
+    display: flex;
+    text-align: center;
+}
+
+.img03{
+
+    width: 40vw;
+}
+
+#imgesquerda{
+    margin-top: -1%;
+}
+
+#imgdireita{
+
+    margin-top: 2%;
+}
+
+.linha2{
+
+    background-color: #DA5F17;
+    padding: 0.25%;
+    border: #DA5F17;
+    border-radius: 1rem;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.textomeio h1{
+
+    color: #DA5F17;
+    font-size: 3rem;
+    margin-top: 1%;
+}
+
+.textomeio p{
+
+    margin-top: 5%;
+    width: 80%;
+    margin: 5% auto;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    max-width: 60.3%;
+    margin-bottom: -10%;
+}
+
+.textomeio a{
+
+    text-decoration: none;
+    color: white;
+    background-color: #DA5F17;
+    border-radius: 0.5rem;
+    padding: 1% 8%;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+
+.TRES{
+
+    margin-bottom: 5%;
+}
+
+/* /section (3) */
+
+/* Estilizando section (4) */
+
+.conteiner04{
+
+    background-color: #DA5F17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw;
+}
+
+.quadrado{
+
+    background-color: white;
+    width: 20%;
+    height: 28vw;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 6px 8px rgba(59, 59, 59, 0.325);
+
+}
+
+.conteudo{
+
+    display: flex;
+    align-items: center;
+    
+    display: block;
+
+
+}
+.quadrado img{
+
+    width: 7vw;
+    margin-top: 2%;
+}
+
+.textoquadrado h1{
+    margin-bottom: 2%;
+}
+
+
+.linha3{
+
+    background-color: #DA5F17;
+    padding: 0.90%;
+    border: #DA5F17;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.textoquadrado p{
+
+    font-size: 1.6rem;
+    font-weight: lighter;
+    
+}
+
+.QUATRO{
+
+    margin-bottom: 5%;
+}
+
+/* /seção (4) */
+
+/* Estilizando seção (5) */
+
+.conteiner05{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.img04{
+    margin-left: 4%;
+    width: 40vw;
+}
+
+/* Carrossel */
+
+.carousel-container {
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+  }
+
+  .carousel-title {
+    font-size: 3rem;
+    margin-bottom: 2vw;
+    color: #DA5F17;
+  }
+
+  .carousel-slide {
+    display: none;
+  }
+
+  .carousel-slide.active img{
+    width: 60vh;
+  }
+  .carousel-slide.active {
+    display: block;
+  }
+
+  .carousel-buttons {
+    margin-top: 2vw;    
+  }
+
+  .carousel-button {
+    display: inline-block;
+    padding: 0.75vw 0.75vw;
+    background-color: #C4C4C4;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 100vw;
+    margin-right: 0.75vw;
+  }
+
+  .carousel-button.selected {
+    background-color: #DA5F17;
+  }
+
+  /* /carrossel */
+
+  .CINCO{
+
+    margin-bottom: 5%;
+  }
+
+  /* /seção 5 */
+
+  /* Direito autorais */
+
+.linha4{
+
+    width: 100%;
+    background-color: #DA5F17;
+    padding: 0.090dvh;
+
+}
+
+.textofinal{
+
+    margin: 2%;
+    text-align: center;
+}
+
+/* /Direitos autorais */
+
+
+/* ----------------------------RESPONSIVIDADE---------------------------- */
+
+/* 600px */
+
+@media screen and (max-width: 600px) {
+
+    body{
+
+        max-width: 600px;
+    }
+
+    .cabeçalho{
+
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    
+    }
+
+
+    /* /cabeçalho */
+
+
+
+    .conteiner01{
+
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.textolateral{
+
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.botão{
+
+    margin-top: 15%;
+}
+
+.textolateral a{
+
+    text-decoration: none;
+    color: white;
+    background-color: #DA5F17;
+    border-radius: 0.75rem;
+    padding: 10% 50%;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    
+}
+
+.img01 img{
+
+    width: 80vw;
+    z-index: -1;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.UM{
+
+    margin-bottom: 20%;
+}
+
+
+.img02{
+
+    position: absolute;
+    right: 32%;
+    z-index: -1;
+}
+
+.img02 img{
+
+    width: 100vw;
+}
+
+.linha{
+
+    display: none;
+}
+
+
+.textolateral02{
+
+    color: #DA5F17;
+    font-size: 4vw;
+    margin-top: 7%;
+    align-items: end;
+    justify-content: end;
+    text-align: right;
+    
+}
+
+.textolateral02 p{
+
+    color: black;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    max-width: 78%;
+    align-items: end;
+    justify-content: end;
+    text-align: right;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.TRES img{
+
+    display: none;
+}
+
+.textomeio{
+
+    margin-top: 10%;
+}
+
+.conteiner04{
+
+    background-color: #DA5F17;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.quadrado{
+
+    background-color: white;
+    width: 100%;
+    height: 50vw;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 6px 8px rgba(59, 59, 59, 0.325);
+    margin-top: 5%;
+
+}
+
+.quadrado img{
+
+    width: 7vw;
+    margin-top: 2%;
+}
+
+.textoquadrado h1{
+    margin-bottom: 2%;
+}
+
+
+.linha3{
+
+    background-color: #DA5F17;
+    padding: 0.90%;
+    border: #DA5F17;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 0 auto 5%;
+}
+
+.textoquadrado p{
+
+    font-size: 1.6rem;
+    font-weight: lighter;
+    
+}
+
+.QUATRO{
+
+    margin-bottom: 5%;
+}
+
+.img04{
+
+    display: none;
+}
+
+.carousel-container{
+
+    width: 80%;
+}
+
+
+.logo{
+
+    display: none;
+}
+
+}

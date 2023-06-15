@@ -1,0 +1,62 @@
+
+
+@media screen and (max-width:1200px) {
+
+    .textoquadrado p{
+        font-size: 20px;
+    }
+
+
+    .sld1{
+        width: 170px;
+        height: 100px;
+    }
+
+    .sld2{
+        width: 170px;
+        height: 100px;
+    }
+
+    .sld3{
+        width: 170px;
+        height: 100px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:960px){
+
+    .textomeio p {
+
+        font-size: 20px;
+    }
+
+
+    .img03{
+        width: 200px;
+        height: 300px;
+    }
+
+    .img04{
+        width: 200px;
+        height: 300px;
+    }
+
+    .textolatera102 p{
+        text-align: center;
+        justify-content: center;
+        font-size:10px ;
+
+    }
+
+
+    
+
+}
+
+
